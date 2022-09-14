@@ -82,7 +82,7 @@ HTMLWidgets.widget({
           });
         }
 
-        function getCameraImage(facingMode = 'user'){
+        function getCameraImage(facingMode = 'environment'){
           if (typeof videoStream !== 'undefined') {
             stopMediaTracks(videoStream);
           }
